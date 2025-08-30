@@ -4,7 +4,7 @@ document.getElementById("ecetForm").addEventListener("submit", function (e) {
   const phone = document.getElementById("phone").value;
 
   if (!/^\d{10}$/.test(phone)) {
-    alert("Phone number must be 10 digits.");
+    alert("Phone number must be 20 digits.");
     return;
   }
 
